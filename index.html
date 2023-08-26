@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Interactive Image Gallery</title>
+</head>
+<body>
+    <div class="gallery">
+    </div>
+
+    <header>
+        <h1>Beautiful Image Gallery</h1>
+        <select id="category-select">
+            <option value="all">All Categories</option>
+            <option value="nature">Nature</option>
+            <option value="architecture">Architecture</option>
+            <option value="animals">Animals</option>
+        </select>
+    </header>
+    <div class="gallery-container">
+        <div class="gallery">
+            <!-- Gallery images will be dynamically added here -->
+        </div>
+    </div>
+
+    <div class="modal">
+        <span class="close">&times;</span>
+        <img src="" alt="Modal Image" class="modal-content">
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
